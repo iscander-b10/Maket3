@@ -3,6 +3,17 @@ footer{
     padding-bottom: 100px;
 }
 
+.footerContainer {
+    width: 1180px;
+    margin: 0px auto;
+}
+
+.footerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 .nav__menu--footer{
     margin-right: 0;
     width: 30%;
@@ -16,9 +27,4 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 12%;  
-}
-
-
-@media screen (max-width: 500px){
-    
 }

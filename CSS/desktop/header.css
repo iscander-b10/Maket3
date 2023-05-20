@@ -37,12 +37,12 @@ header{
   padding-bottom: 85px;
 }
 
-.container{
+.headerContainer{
   width: 1180px;
   margin: 0px auto;
 }
 
-.nav{
+.headerNav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,9 +96,4 @@ header{
 
 .personal-area__button--border:hover{
   border-color: #445faf;
-}
-
-
-@media screen (max-width: 500px){
-    
 }
