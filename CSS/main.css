@@ -45,14 +45,14 @@ main{
     left: 52%;
     width: 48%;
     height: 572px;
-    background-image: url(/Maket3/img/main-screen.svg);
+    background-image: url(/img/main-screen.svg);
     background-repeat: no-repeat;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
 
 .table__chart{
-    background-image: url(/Maket3/img/chart.svg);
+    background-image: url(/img/chart.svg);
     background-repeat: no-repeat;
     background-position: 39% 39%;
     background-color: white;
@@ -137,7 +137,7 @@ main{
 .article__chart1{
     width: 600px;
     height: 410px;
-    background-image: url(/Maket3/img/screen-01.svg);
+    background-image: url(/img/screen-01.svg);
     background-repeat: no-repeat; 
     background-position: center;
     background-color: white; 
@@ -147,7 +147,7 @@ main{
 .article__chart2{
     width: 600px;
     height: 410px;
-    background-image: url(/Maket3/img/screen-02.svg);
+    background-image: url(/img/screen-02.svg);
     background-repeat: no-repeat;  
     background-position: center;
     background-color: white; 
@@ -157,7 +157,7 @@ main{
 .article__chart3{
     width: 600px;
     height: 410px;
-    background-image: url(/Maket3/img/screen-03.svg);
+    background-image: url(/img/screen-03.svg);
     background-repeat: no-repeat; 
     background-position: center;
     background-color: white;  
@@ -224,21 +224,21 @@ main{
 }
 
 .pricing__price1{
-    background-image: url(/Maket3/img/$29.svg);
+    background-image: url(/img/$29.svg);
     background-repeat: no-repeat;
     width: 87px;
     height: 55px;
 }
 
 .pricing__price2{
-    background-image: url(/Maket3/img/$99.svg);
+    background-image: url(/img/$99.svg);
     background-repeat: no-repeat;
     width: 87px;
     height: 55px;
 }
 
 .pricing__price3{
-    background-image: url(/Maket3/img/$299.svg);
+    background-image: url(/img/$299.svg);
     background-repeat: no-repeat;
     width: 123px;
     height: 55px;
