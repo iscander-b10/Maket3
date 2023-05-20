@@ -97,3 +97,8 @@ header{
 .personal-area__button--border:hover{
   border-color: #445faf;
 }
+
+
+@media screen (max-width: 500px){
+    
+}
