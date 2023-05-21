@@ -1,0 +1,30 @@
+footer{
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+
+.footerContainer {
+    width: 1180px;
+    margin: 0px auto;
+}
+
+.footerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav__menu--footer{
+    margin-right: 0;
+    width: 30%;
+}
+
+.nav__item--size{
+    font-size: 0.875rem;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+    width: 12%;  
+}
