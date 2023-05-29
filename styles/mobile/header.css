@@ -1,6 +1,6 @@
 @media screen and (max-width: 500px){
     body{
-      background-image: url(/img/background-top-mobile.svg);
+      background-image: url(/img/background-top-mobile.svg), url(/img/background-bottom-mobile.svg);
     }
   
     header {

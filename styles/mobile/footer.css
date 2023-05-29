@@ -1,5 +1,17 @@
 @media screen and (max-width: 500px){
     footer {
+        padding: 45px 5%;
+    }
+
+    .footerContainer{
+        width: 100%;
+    }
+
+    .nav__menu--footer{
         display: none;
+    }
+
+    .footer__links{
+        width: 37%;
     }
 }

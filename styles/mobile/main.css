@@ -1,26 +1,19 @@
-@media screen and (max-width: 500px){
-    main{
-        padding: 0 5% 0 5%;
-    }
-    
+@media screen and (max-width: 500px){   
     .mainContainer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 500px;
-        padding-top: 30px;
+        max-width: 100%;
+        padding: 70px 5% 0 5%;
     }
     
     .table{
         position: static;
         order: -1;
-        width: 100%;
-        height: 317px;
-        margin-top: 43px;
+        width: 111%;
+        height: 320px;
         background-image: url(/img/main-screen-small.svg);
-        background-color: aqua;
-        background-position: 0% 20%;
-        background-size: cover;
+        background-size: 100%;
     }
 
     .table__chart{
@@ -30,26 +23,124 @@
     .title{
         width: 100%;
         margin-top: 25px;
+        margin-bottom: 15px;
+        align-items: center;
     }
 
     .title__h1{
         font-size: 1.93rem;
         line-height: 37.2px;
-    }
-    
-    .main-feautures{
-        display: none;
+        text-align: center;
+        margin-bottom: 30px;
     }
 
+    .try-for-free{
+        margin-top: 70px;
+        width: 88%;
+        height: 60px;
+    }
+    
+    .main-features{
+        margin-top: 270px;
+    }
+
+    .h2__title{
+        font-size: 1.875rem;
+        line-height: 35px;
+    }
+
+    .subtitle{
+        font-size: 0.875rem;
+        line-height: 19px;
+        text-align: left;
+    }
+
+    .main-features__menu{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-features__item{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .main-features__item--flex{
+        align-items: flex-start;
+    }
+
+    .main-features__text{
+        text-align: left;
+        font-size: 0.875rem;
+        line-height: 19px;
+
+    }
+    
     .article{
-        display: none;
+        margin-top: 70px;
+        margin-bottom: 200px;
+    }
+
+    .article__list{
+        gap: 60px;
+    }
+    
+    .article__item{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .article__title{
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .article__chart1, .article__chart2, .article__chart3{
+        width: 100%;
+        background-size: 100% 65%;
+        height: 290px;
+    }
+
+    .article__chart2{
+        order: 2;
     }
 
     .pricing{
-        display: none;
+        text-align: left;
     }
 
-    .delimiter{
-        display: none;
+    .pricing__list{
+        gap: 20px;
+    }
+
+    .pricing__item{
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+    
+    .pricing__name{
+        font-size: 1.56rem;
+        margin-bottom: 7px;
+    }
+
+    .pricing__up-users{
+        font-size: 0.81rem;
+        margin-bottom: 30px;
+    }
+    
+    .pricing__delimiter{
+        background: #D3D9E9;
+        margin-bottom: 20px;
+    }
+
+    .pricing__time{
+        font-size: 0.81rem;
+    }
+
+    .pricing__link{
+        margin-top: 30px;
+        width: 65%;
+        padding: 15px;
     }
 }
