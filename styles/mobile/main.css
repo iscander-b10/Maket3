@@ -143,4 +143,14 @@
         width: 65%;
         padding: 15px;
     }
+    
+    /* TODO Create carusel and delete this styles */
+    .pricing__item--left{
+        display: none;
+    }
+
+    /* TODO Create carusel and delete this styles */
+    .pricing__item--rigth{
+        display: none;
+    }
 }
